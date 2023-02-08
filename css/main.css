@@ -56,6 +56,10 @@ h1 {
   background: var(--red-color);
 }
 
+.is-hidden {
+  display: none;
+}
+
 .box.trigger {
   background: var(--violet-color);
 }
@@ -65,6 +69,10 @@ h1 {
 }
 
 .box.trigger-all {
+  background: var(--green-color);
+}
+
+.box.green-box {
   background: var(--green-color);
 }
 

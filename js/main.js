@@ -6,10 +6,25 @@ var changeColorToBlue = function () {
 
 yellowBox.addEventListener("click", changeColorToBlue);
 
-var redBox = document.querySelector(".toggle-color");
+// ----------
+
+var orangeBox = document.querySelector(".toggle-color");
 
 var changeColorToRed = function () {
-  redBox.classList.toggle("red");
+  orangeBox.classList.toggle("red");
 };
 
-redBox.addEventListener("click", changeColorToRed);
+orangeBox.addEventListener("click", changeColorToRed);
+
+// ----------
+
+var violetBox = document.querySelector(".trigger");
+var redBox = document.querySelector(".target");
+
+var hideRedBox = function () {
+  redBox.classList.toggle("is-hidden");
+};
+
+violetBox.addEventListener("click", hideRedBox);
+
+// ----------
